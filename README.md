@@ -1,24 +1,13 @@
 # Printing Code Projects
 
-This is an empty repository that students in my [Printing Code](http://printingcode.runemadsen.com/) class can use as a starter template for their own projects.
-
-## Getting started
-
-- Fork this repo to your own GitHub account
-- Open terminal on your computer
-- `cd` into the folder where you want the main project folder to exist. For me, this is the `Projects` folder, so I run `cd ~/Projects` from my terminal.
-- Clone your new forked repo into this folder by running something like `git clone git@github.com:USERNAME/printing-code-projects.git`. You need to find the actual Git URL on your forked project page.
+This is a repository containing my projects from Rune Madsen's [Printing Code](http://printingcode.runemadsen.com/) class.
 
 ## Running the projects
 
-You need a web server to see the examples in your browser. Luckily, this repo has a script to do this. Run the following from inside your project folder.
+You need a web server to see the examples in your browser. Luckily, this repo has a script to do this. Run the following from inside the project folder.
 
 ```bash
 bash server.sh
 ```
 
 Now, go to [localhost:1234](http://localhost:1234) and navigate to any project folder.
-
-## Adding your own projects
-
-Simply make a copy of the `empty-project` folder and rename it. Now start coding!
